@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @lexee-lexee
+- 👋 Hi, I’m @lexee-lexee, a huster from Huazhong University of Science and Technology
 - 👀 I’m interested in coding
 - 🌱 I’m currently learning computer science
 - 📫 How to reach me：you can send emails to 2721008368@qq.com
