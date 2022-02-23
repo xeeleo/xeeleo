@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* li:first-child {
+            background-color: blue;
+        }
+        li:last-child {
+            background-color: orange;
+        } */
+        /* li:first-child a {
+            background-color: orange;
+        } */
+        /* .father {
+            width: 400px;
+            height: 400px;
+            background-color: rgb(19, 60, 197);
+        }
+        .father::before {
+            content: 'woshi';
+            width: 100px;
+            height: 100px;
+            background-color: #CC0;
+            display: block;
+        }
+        img {
+            margin-right: 10px;
+            float: right;
+        }
+        .left {
+            width: 100px;
+            height: 100px;
+            background-color: #CCC;
+            float: left;
+        }
+        .right {
+            width: 100px;
+            height: 100px;
+            background-color: #0CC;
+            float: right;
+        }
+        .clearfix::before,
+        .clearfix::after {
+            content: '';
+            display: table;
+        }
+        .clearfix::after {
+            clear: both;
+        } */
+        .father {
+            /* 将father盒子转换成BFC盒子，解决清除浮动的问题 */
+            /* float: left;  1.给父元素设置浮动 */
+            display: inline-block; /*2.属性值设置为行内块元素*/
+            overflow: hidden; /*3.设置overflow属性*/
+            width: 400px;
+            background-color: pink;
+        }
+        .son {
+            float: left;
+            width: 100px;
+            height: 400px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- <ul>
+        <div>hhh</div>
+        <li>我是第1个li</li>
+        <li>我是第2个li</li>
+        <li>我是第3个li</li>
+        <li>我是第4个li</li>
+        <li>我是第5个li</li>
+        <li>我是第6个li</li>
+        <li>我是第7个li</li>
+        <li>我是第8个li</li>
+        <li>我是第9个li</li>
+        <li>我是第10个li</li>
+    </ul> -->
+    <!-- <ul>
+        <li><a href="#">我是</a></li>
+        <li><a href="#">我是</a></li>
+        <li><a href="#">我是</a></li>
+        <li><a href="#">我是</a></li>
+        <li><a href="#">我是</a></li>
+    </ul> -->
+    <!-- <div class="father">hhhh</div>
+    <img src="./practice4-普通导航和五彩导航/favicon.ico" alt="">
+    梁思成捏不饿北方二尺五万吨被称为北侧u帮我全部发送出版物更深层次我v包
+    <div class="left"></div>
+    <div class="right"></div> -->
+    
+    <div class="father ">
+        <div class="son"></div>
+    </div>
+</body>
+</html>

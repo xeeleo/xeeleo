@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 7.!important */
+        p {
+            color: brown !important;
+        }
+        /* 5.id选择器 */
+        #one {
+            color: blue;
+        }
+        /* 4.类选择器 */
+        .son {
+            color: aquamarine;
+        }
+        /* 3.标签选择器 */
+        p {
+            color: aqua;
+        }
+        /* 通配符选择器 */
+        * {
+            color: antiquewhite;
+        }
+        /* 1.继承 */
+       .father {
+           color: aliceblue;
+       }
+    </style>
+</head>
+<body>
+    <div class="father">
+        <!-- 6.行内样式 -->
+        <p class="son" style="color:blueviolet" id="one">hhhhhhh</p>
+    </div>
+</body>
+</html>
